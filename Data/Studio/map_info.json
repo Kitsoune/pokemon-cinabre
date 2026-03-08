@@ -1,0 +1,36 @@
+{
+  "0": {
+    "id": 0,
+    "children": [
+      1,
+      2
+    ],
+    "hasChildren": true,
+    "isExpanded": true,
+    "data": {
+      "klass": "MapInfoRoot"
+    }
+  },
+  "1": {
+    "id": 1,
+    "children": [],
+    "hasChildren": false,
+    "isExpanded": false,
+    "data": {
+      "klass": "MapInfoMap",
+      "mapDbSymbol": "map001",
+      "parentId": 0
+    }
+  },
+  "2": {
+    "id": 2,
+    "children": [],
+    "hasChildren": false,
+    "isExpanded": false,
+    "data": {
+      "klass": "MapInfoMap",
+      "mapDbSymbol": "map002",
+      "parentId": 0
+    }
+  }
+}

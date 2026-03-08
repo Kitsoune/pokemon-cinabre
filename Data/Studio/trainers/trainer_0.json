@@ -1,0 +1,97 @@
+{
+  "klass": "TrainerBattleSetup",
+  "id": 0,
+  "dbSymbol": "trainer_0",
+  "vsType": 1,
+  "isCouple": false,
+  "baseMoney": 10,
+  "bagEntries": [
+    {
+      "dbSymbol": "full_restore",
+      "amount": 1
+    }
+  ],
+  "battleId": 0,
+  "ai": 3,
+  "party": [
+    {
+      "specie": "gabite",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 32
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Shina"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "nature",
+          "value": "adamant"
+        },
+        {
+          "type": "givenName",
+          "value": "Rigide"
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "sprite": "Sprite_Cynthia_NB",
+    "artworkFull": "VS_Cynthia_Pt",
+    "artworkSmall": "VS_Cynthia_Pt",
+    "character": "",
+    "musics": {
+      "encounter": "shina_encounter.ogg",
+      "victory": "",
+      "defeat": "xy_trainer_battle_victory.ogg",
+      "bgm": "vs_shina.mp3"
+    }
+  },
+  "additionalDialogs": []
+}
