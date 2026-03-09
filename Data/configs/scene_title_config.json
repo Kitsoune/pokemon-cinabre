@@ -4,8 +4,6 @@
   "bgmName": "audio/bgm/rosa_title.ogg",
   "bgmDuration": 4418000,
   "isLanguageSelectionEnabled": false,
-  "additionalSplashes": [
-    "Pokemon"
-  ],
+  "additionalSplashes": [],
   "controlWaitTime": 0.5
 }

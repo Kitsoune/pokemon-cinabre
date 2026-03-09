@@ -161,4 +161,20 @@
    <frame tileid="5296" duration="200"/>
   </animation>
  </tile>
+ <tile id="6077">
+  <animation>
+   <frame tileid="6077" duration="200"/>
+   <frame tileid="6079" duration="200"/>
+   <frame tileid="6081" duration="200"/>
+   <frame tileid="6083" duration="200"/>
+  </animation>
+ </tile>
+ <tile id="6078">
+  <animation>
+   <frame tileid="6078" duration="200"/>
+   <frame tileid="6080" duration="200"/>
+   <frame tileid="6082" duration="200"/>
+   <frame tileid="6084" duration="200"/>
+  </animation>
+ </tile>
 </tileset>
