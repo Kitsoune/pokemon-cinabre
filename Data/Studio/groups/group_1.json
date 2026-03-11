@@ -2,9 +2,14 @@
   "klass": "Group",
   "id": 1,
   "dbSymbol": "group_1",
+  "systemTag": "Grass",
+  "terrainTag": 0,
+  "tool": null,
+  "vsType": "simple",
+  "customConditions": [],
   "encounters": [
     {
-      "specie": "geodude",
+      "specie": "crabitaine",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -14,10 +19,52 @@
         "kind": "minmax",
         "level": {
           "minimumLevel": 1,
-          "maximumLevel": 1
+          "maximumLevel": 8
         }
       },
-      "randomEncounterChance": 1,
+      "randomEncounterChance": 80,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "ailuzen",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 1,
+          "maximumLevel": 8
+        }
+      },
+      "randomEncounterChance": 90,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -46,10 +93,5 @@
       ]
     }
   ],
-  "vsType": "simple",
-  "systemTag": "Grass",
-  "terrainTag": 0,
-  "customConditions": [],
-  "tool": null,
   "stepsAverage": 30
 }

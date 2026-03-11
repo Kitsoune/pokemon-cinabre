@@ -6,10 +6,5 @@
   "northMaps": [],
   "eastMaps": [],
   "southMaps": [],
-  "westMaps": [
-    {
-      "mapId": 2,
-      "offset": 0
-    }
-  ]
+  "westMaps": []
 }

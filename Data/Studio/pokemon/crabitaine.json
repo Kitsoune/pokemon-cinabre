@@ -1,0 +1,75 @@
+{
+  "klass": "Specie",
+  "id": 808,
+  "dbSymbol": "crabitaine",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 1053,
+        "description": 0
+      },
+      "height": 0.09,
+      "weight": 0.07,
+      "type1": "water",
+      "type2": "__undef__",
+      "baseHp": 58,
+      "baseAtk": 42,
+      "baseDfe": 65,
+      "baseSpd": 44,
+      "baseAts": 41,
+      "baseDfs": 62,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 64,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 45,
+      "breedGroups": [
+        2,
+        9
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "crabitaine",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "torrent",
+        "rain_dish",
+        "water_absorb"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "2000",
+        "iconShiny": "",
+        "front": "2000",
+        "frontShiny": "",
+        "back": "2000",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": []
+    }
+  ]
+}

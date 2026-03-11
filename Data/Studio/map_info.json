@@ -2,6 +2,7 @@
   "0": {
     "id": 0,
     "children": [
+      3,
       1,
       2
     ],
@@ -30,6 +31,17 @@
     "data": {
       "klass": "MapInfoMap",
       "mapDbSymbol": "map002",
+      "parentId": 0
+    }
+  },
+  "3": {
+    "id": 3,
+    "children": [],
+    "hasChildren": false,
+    "isExpanded": false,
+    "data": {
+      "klass": "MapInfoMap",
+      "mapDbSymbol": "map003",
       "parentId": 0
     }
   }

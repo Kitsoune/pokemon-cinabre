@@ -26,39 +26,35 @@ module DiscordRP
     init unless @initialise
     return unless @initialise
 
-    # --- RÉCUPÉRATION DES DONNÉES (SÉCURISÉE) ---
     details = "Menu Principal"
-    state = "Pret a partir"
+    state = "Région de Huaxia"
 
     begin
-      # 1. Vérification de la Map
-      # On utilise la variable que tu as testée avec F12
-      current_id = ($game_map ? $game_map.map_id : 0) rescue 0
-      
-      if current_id > 0
-        # On tente de récupérer le nom via l'environnement PSDK
-        nom_lieu = ""
-        if defined?(PFM) && PFM.game_state && PFM.game_state.env
-          nom_lieu = PFM.game_state.env.get_current_zone_data.map_name.to_s rescue ""
-        end
+      if $game_map && $game_map.map_id > 0
+        nom_lieu = PFM.game_state.env.current_zone_name rescue ""
         
-        details = nom_lieu.empty? ? "Exploration (Map #{current_id})" : nom_lieu
-        
-        # 2. Vérification des Pokémon
-        # Ton log a montré que les pokémons sont dans gs.actors
-        if defined?(PFM) && PFM.game_state && PFM.game_state.actors
-          nb = PFM.game_state.actors.compact.size rescue 0
-          state = "Equipe : #{nb} Pokemon"
+        if nom_lieu.empty? || nom_lieu.include?("MAP")
+          nom_lieu = $game_map.name.to_s rescue ""
         end
+
+        details = (nom_lieu.empty? || nom_lieu.include?("MAP")) ? "Exploration (Map #{$game_map.map_id})" : nom_lieu
       end
 
-      # --- ENVOI DISCORD ---
+      if PFM.game_state && PFM.game_state.actors
+        nb = PFM.game_state.actors.compact.size rescue 0
+        state = "Equipe : #{nb} Pokemon"
+      end
+
       puts "[DISCORD] Update -> #{details} | #{state}"
       
       payload = [
-        state, details, 0, 0,
-        "logo_large", "Pokémon Cinabre",
-        "icon_small", "En voyage",
+        state,
+        details,
+        0, 0,
+        "logo_large",
+        "Pokemon Cinabre",
+        "icon_small",
+        "Fangame Français",
         "", 0, 0, "", "", "", 0
       ].pack('p2q2p5i2p3c')
 
@@ -70,10 +66,9 @@ module DiscordRP
   end
 end
 
-# Lancement dans un Thread (Processus séparé)
 Thread.new do
   loop do
     DiscordRP.update
-    sleep 10 # On rafraîchit toutes les 10 secondes
+    sleep 10
   end
 end
