@@ -1,6 +1,6 @@
 # Pokémon Cinabre
 
-**Pokémon Cinabre** est un fangame développé sous **PokémonSDK** et **Pokémon Studio**. L'histoire se déroule dans la région de **Huaxia**, inspirée de la **Chine impériale du XVIe siècle**.
+**Pokémon Cinabre** est un fangame développé sous **PokémonSDK** et **Pokémon Studio**. L'histoire se déroule dans la région d'**Eisenn**, inspirée de la **Allemagne de la Renaissance (XVIe siècle)** et du **Saint-Empire Germanique**.
 
 Ce dépôt contient l'intégralité du code source, des ressources et des données de configuration nécessaires au développement du projet.
 
@@ -26,7 +26,7 @@ Si vous rejoignez l'équipe de développement, voici la marche à suivre pour co
 
 ```bash
 # Cloner le projet Pokémon Cinabre
-git clone https://https://github.com/Kitsoune/Pokemon_Cinabre
+git clone https://https://github.com/Kitsoune/pokemon-cinabre
 cd Pokemon_Cinabre
 
 # Cloner la version spécifique de PSDK utilisée par le projet
@@ -73,6 +73,6 @@ Pour éviter de corrompre les fichiers de données d'RPG Maker XP, nous utilison
 
 ## ❤️ Crédits
 
-- **Équipe Pokémon Cinabre :** [Tes pseudos ou noms]
+- **Équipe Pokémon Cinabre :** [@Kitsoune](https://github.com/Kitsoune)
 - **Moteur :** [PokémonSDK](https://github.com/PokemonWorkshop) par l'équipe Pokémon Workshop.
-- **Assets :** [Lister ici les artistes principaux ou les packs de ressources utilisés].
+- **Assets :** [WIP].
