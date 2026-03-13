@@ -3,8 +3,7 @@
     "id": 0,
     "children": [
       3,
-      1,
-      2
+      1
     ],
     "hasChildren": true,
     "isExpanded": true,
@@ -14,9 +13,11 @@
   },
   "1": {
     "id": 1,
-    "children": [],
-    "hasChildren": false,
-    "isExpanded": false,
+    "children": [
+      2
+    ],
+    "hasChildren": true,
+    "isExpanded": true,
     "data": {
       "klass": "MapInfoMap",
       "mapDbSymbol": "map001",
@@ -31,7 +32,7 @@
     "data": {
       "klass": "MapInfoMap",
       "mapDbSymbol": "map002",
-      "parentId": 0
+      "parentId": 1
     }
   },
   "3": {

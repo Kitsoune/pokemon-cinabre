@@ -2,8 +2,8 @@ en,fr,it,es,de,ko,kana
 ---,---,---,---,---,---,---
 Opening Cutscene,Qiyuan Cun,Opening Cutscene,Opening Cutscene,Opening Cutscene,Opening Cutscene,Opening Cutscene
 Start,Intérieur Laboratoire,Start,Start,Start,Start,Start
-Hub,[Intro] Bâteau,Hub,Hub,Hub,Hub,Hub
-Elevator (env),Elevator (env),Elevator (env),Elevator (env),Elevator (env),Elevator (env),Elevator (env)
+Hub,Bateau,Hub,Hub,Hub,Hub,Hub
+Elevator (env),TESTBOAT,Elevator (env),Elevator (env),Elevator (env),Elevator (env),Elevator (env)
 River,River,River,River,River,River,River
 Beach,Beach,Beach,Beach,Beach,Beach,Beach
 Cave,Cave,Cave,Cave,Cave,Cave,Cave
